@@ -1,6 +1,7 @@
 import { createRouter, createWebHistory } from 'vue-router'
 import HomeView from '../views/HomeView.vue'
 import YearView from '../views/YearView.vue'
+import DayView from '../views/DayView.vue'
 
 const routes = [
   {
@@ -12,6 +13,11 @@ const routes = [
     path: '/year',
     name: 'year',
     component : YearView
+  },
+  {
+    path: '/day',
+    name: 'day',
+    component : DayView
   },
   {
     path: '/about',
